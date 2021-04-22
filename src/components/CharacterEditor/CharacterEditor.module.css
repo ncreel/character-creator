@@ -58,7 +58,8 @@
     height: 250px;
     isolation: isolate;
     overflow: scroll;
-    white-space: nowrap;
+    white-space: nowrap; 
+    /* why doesn't this work for mobile scrolling? */
   }
   .characterWrapper{
     left: 60px;
