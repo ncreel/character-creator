@@ -52,16 +52,17 @@
     font-size: 1.25rem;
   }
   .controlColumn{
-    position: fixed;
-    width: fit-content;
-    bottom: 150px;
-    overflow: auto;
+    position: absolute;
+    bottom: 10%;
+    width: 90%;
+    height: 250px;
+    isolation: isolate;
+    overflow: scroll;
     white-space: nowrap;
-    height: 200px;
   }
   .characterWrapper{
     left: 60px;
     height: 65%;
-    top: 30%
+    top: 25%
   }
 }

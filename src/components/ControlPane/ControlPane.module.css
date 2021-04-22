@@ -29,7 +29,6 @@
   .controlPane{
     position: absolute;
     bottom: 20%;
-    isolation: isolate;
-    width: 85%;
+    width: 90%;
   }
 }
