@@ -9,3 +9,9 @@
 a{
   color: inherit;
 }
+
+@media (max-width: 375px){
+  .footer{
+    margin-top: 150px;
+  }
+}

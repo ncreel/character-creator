@@ -38,3 +38,9 @@ body {
     bottom: 0px;
     background-color: hsl(195deg, 20%, 86%);
 }
+
+@media (max-width: 414px){
+  .perspective{
+    display: none;
+  }
+}

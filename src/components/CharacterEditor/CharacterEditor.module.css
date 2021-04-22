@@ -37,3 +37,31 @@
 .controlColumn {
   width: 50%;
 }
+
+@media (max-width:414px){
+  .header{
+    margin-top: -100px;
+    margin-bottom: 300px;
+    width: 100%;
+    text-align: center;
+  }
+  .title{
+    font-size: 1.75rem;
+  }
+  .description{
+    font-size: 1.25rem;
+  }
+  .controlColumn{
+    position: fixed;
+    width: fit-content;
+    bottom: 150px;
+    overflow: auto;
+    white-space: nowrap;
+    height: 200px;
+  }
+  .characterWrapper{
+    left: 60px;
+    height: 65%;
+    top: 30%
+  }
+}

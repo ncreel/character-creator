@@ -5,3 +5,8 @@
   margin-left: auto;
   margin-right: auto;
 }
+@media (max-width: 414px){
+  .maxWidthWrapper{
+    max-width: 375px;
+  }
+}
